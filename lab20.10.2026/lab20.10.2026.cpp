@@ -1,3 +1,5 @@
+//nie mam pojecia kim jest mortuusorchis ani dlaczego uczelniany komputer przypisal czesc commitow jemu
+
 #include <iostream>
 #include <math.h>
 using namespace std;
