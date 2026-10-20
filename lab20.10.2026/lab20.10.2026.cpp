@@ -29,10 +29,10 @@ int main()
     if (a == b)
         cout << "Te liczby sa rowne. \n";
 
-   else if (a > b)
+   else if (a < b)
         cout << "Liczba a jest wieksza od liczby b. \n";
 
-    else (a < b)
+    else (a > b)
         cout << "Liczba a jest mniejsza od liczby b. \n";
 
         return 0;
@@ -53,11 +53,11 @@ int main()
     cout << "Te liczby sa rowne. \n";
 }
     else {
-        if (a > b) {
+        if (a < b) {
             cout << "Liczba a jest wieksza od liczby b. \n";
         }
         else {
-            if (a < b) {
+            if (a > b) {
                 cout << "Liczba a jest mniejsza od liczby b. \n";
             }
         }
@@ -206,21 +206,25 @@ int main()
 */
 
 //zadanie 7
+/*
 {
     int i = 0;
     while (true) {
-        cout << i << endl;
-        i++;
+        
+        
 
         if (i == 200) {
             cout << "Koniec programu. \n";
             break;
 		}
 
-        if (i % 2 == 0) {
-            
+        if (i % 2 != 0) {
+            cout << i << endl;
         }
     
-		
+        i++;
     }
 }
+*/
+
+//zadanie 8
